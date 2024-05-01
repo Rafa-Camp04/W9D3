@@ -6,9 +6,6 @@ export default class FollowToggle {
     this.toggleButton = toggleButton;
     this.toggleButton.addEventListener("click", this.handleClick.bind(this));
     
-    debugger
-
-    
   }
 
   async handleClick(event) {
